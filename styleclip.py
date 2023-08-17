@@ -5,7 +5,7 @@ import replicate
 import urllib.request
 import os
 
-os.environ["REPLICATE_API_TOKEN"]="r8_1VkrskFOHnvOUmbtftkJ6xpidyt4WD01ogeSI"
+os.environ["REPLICATE_API_TOKEN"]="r8_*************************************"
 
 image = open("./iu.jpg", "rb")
 
