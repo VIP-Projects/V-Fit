@@ -6,6 +6,14 @@ Pale			face			Pale face
 Tanned			face			Tanned face
 Makeup			face			Makeup face
 Beard			face			face with beard
+Chubby			face			chubby
+Emma Stone		face			Emma Stone
+Earrings		face			face with earrings
+Glasses			face			face with glasses
+Wrinkle			face			face with wrinkle
+Sad			face			face with sad
+Angry			face			face with angry
+Surprised		face			face with surprised
 Gender			female face		male face
 Mohawk hairstyle	face with hair		face with mohawk hairstyle
 Bald			face with hair		face with bald
@@ -23,11 +31,3 @@ Undercut hair		face with hair		face with undercut hair
 Fringe hair		face with hair		face with fringe hair
 Red hair		face with hair		face with red hair
 Blue eyes		face with eyes		face with blue eyes
-Chubby			face			chubby
-Emma Stone		face			Emma Stone
-Earrings		face			face with earrings
-Glasses			face			face with glasses
-Wrinkle			face			face with wrinkle
-Sad			face			face with sad
-Angry			face			face with angry
-Surprised		face			face with surprised
