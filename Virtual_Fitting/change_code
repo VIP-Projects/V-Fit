@@ -1,0 +1,22 @@
+> conda 환경
+pytorch 1.7.1 / python=3.7
+
+> .ipynb -> .py
+1. U-2-Net -> U2Net으로 폴더명 변경
+2. import u2net_load -> from U2Net.u2net_load import model / import u2net_run도 마찬가지
+3. u2net_load.py에서 from에 관한 모듈에 U2Net. 추가해주기
+4. u2net_run.py에서 from에 관한 모듈에 U2Net. 추가해주기, line 10 saved_models -> U2Net/saved_models으로 변경
+5. u2net_test.py에서 from에 관한 모듈에 U2Net. 추가해주기
+
+6. Self-Correction-Human-Parsing-for-ACGPN -> Self_ACGPN로 폴더명 변경
+7. simple_extractor.py argument default값 추가
+8. simple_extractor.py에서 from에 관한 모듈에 Self_ACGPN 추가
+9. datasets/simple_extractor_dataset.py에서 from에 관한 모듈에 Self_ACGPN 추가
+10. networks/__init__.py에서 from에 관한 모듈에 Self_ACGPN 추가
+11. networks/AugmentCE2P.py에서 from에 관한 모듈에 Self_ACGPN 추가
+12. !python3 ~~ -> simple_extractor.main()
+
+13. rm -rf -> os.remove
+14. !python test.py -> test.main()
+
+15. image_grid.show(), image_grid.save("results/img.jpg", "JPEG") 추가
