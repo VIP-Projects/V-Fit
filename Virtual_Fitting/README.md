@@ -4,7 +4,7 @@
 
 #### 1) Pose Prediction Model
 
-- './ACGPN' 에 저장
+- './pose' 에 저장
 - [DOWNLOAD](https://github.com/foss-for-synopsys-dwc-arc-processors/synopsys-caffe-models/blob/master/caffe_models/openpose/caffe_model/pose_iter_440000.caffemodel)
 
 #### 2) Human Segmentation Mask 모델
