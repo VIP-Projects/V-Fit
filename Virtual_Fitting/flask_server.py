@@ -70,7 +70,7 @@ def use_hair_fit_model():
     target = str(data['target'])
     manipulation_strength = str(data['mani'])
     output = replicate.run(
-    "자신의 TokenAPI 받기",
+    "자신의 API Token 받기",
 
     input={"input": img1,                         # input image
             "neutral" : neutral,        # origin    
