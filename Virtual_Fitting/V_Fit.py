@@ -51,8 +51,6 @@ def vfit(c_path, i_path):
 
 
     # Model Pose, Segmentation
-    # sorted(os.listdir('inputs/img'))
-
     img_name = f'img_{int(time.time())}.png'
 
     img_path = os.path.join('inputs/img' , i_path)
