@@ -44,13 +44,8 @@ def hello_test():
     
     img1.save('inputs/img/img1.jpg',"JPEG")
     img2.save('inputs/cloth/img2.jpg',"JPEG")
-    
-    
-    # input 폴더에 사진 넣고 경로 설정
-    # cloth_path = 'inputs/cloth/000038_1.jpg'
-    # img_path = 'inputs/img/000174_0.jpg'
 
-    # input 폴더에 첫번째 이미지 가져오기
+    # input 폴더에서 이미지 가져오기
     cloth_path = os.path.join(sorted(os.listdir('inputs/cloth'))[0])
     img_path = os.path.join(sorted(os.listdir('inputs/img'))[0])
 
@@ -75,7 +70,7 @@ def use_hair_fit_model():
     target = str(data['target'])
     manipulation_strength = str(data['mani'])
     output = replicate.run(
-    "orpatashnik/styleclip:7af9a66f36f97fee2fece7dcc927551a951f0022cbdd23747b9212f23fc17021",
+    "자신의 TokenAPI 받기",
 
     input={"input": img1,                         # input image
             "neutral" : neutral,        # origin    
