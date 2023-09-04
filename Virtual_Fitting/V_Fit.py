@@ -30,7 +30,7 @@ def vfit(c_path, i_path):
     u2net = model(model_name='u2netp')
 
 
-    # Preprocessing
+    # Data Preprocessing
     # data_path = 'inputs/cloth' + c_path
     DeleteFiles('./Data_preprocessing/test_color/')
     DeleteFiles('./Data_preprocessing/test_edge/')
@@ -38,6 +38,7 @@ def vfit(c_path, i_path):
     DeleteFiles('./Data_preprocessing/test_label/')
     DeleteFiles('./Data_preprocessing/test_pose/')
 
+    
     # Extraction of Cloth Mask
     cloth_name = f'cloth_{int(time.time())}.png'
 
@@ -47,7 +48,6 @@ def vfit(c_path, i_path):
     cloth.save(os.path.join('Data_preprocessing/test_color', cloth_name))
 
     infer(u2net, 'Data_preprocessing/test_color', 'Data_preprocessing/test_edge')
-
 
 
     # Model Pose, Segmentation
