@@ -5,10 +5,13 @@ import os
 import base64
 import io
 import V_Fit
-os.environ["REPLICATE_API_TOKEN"]="r8_BKQTfIB1vSJgHaFTSfxUNHIvDGa2K6l2pYV7D"
+
+# replicate 토큰 로드
+os.environ["REPLICATE_API_TOKEN"]="r8_-----------------------------------------"
 
 import replicate
 
+# 이미지 로드 및 세이브 파일 제거
 def DeleteFiles(path):
     if os.path.exists(path):
         for file in os.scandir(path):
@@ -21,27 +24,31 @@ def DeleteFiles(path):
         
 app = Flask(__name__)
 
-# 서버 접속 시 기본 실행 function
+# 서버 접속 시 기본 실행 function - 서버 Test
 @app.route('/')
 def hello_world():
     return 'Hello, World!'
 
-# top fusion model function
-@app.route('/hello', methods=['GET','POST'])
-def hello_test():
+# 의상 피팅 모델 function
+@app.route('/cloth_fit', methods=['GET','POST'])
+def cloth_fit():
+    # 이미 저장된 사진 제거
     DeleteFiles('./Data_preprocessing/test_color/')
     DeleteFiles('./Data_preprocessing/test_edge/')
     DeleteFiles('./Data_preprocessing/test_img/')
     DeleteFiles('./Data_preprocessing/test_label/')
     DeleteFiles('./Data_preprocessing/test_pose/')
-    print("hello~")
+
+    # 데이터 수신
     data = request.get_json()
-    # print(data['image'])
+
+    # 사용자 이미지
     imgdata1 = base64.b64decode(data['image1'])
     img1 = Image.open(io.BytesIO(imgdata1))
+    # 의상 이미지
     imgdata2 = base64.b64decode(data['image2'])
     img2 = Image.open(io.BytesIO(imgdata2))
-    
+    # 이미지 저장
     img1.save('inputs/img/img1.jpg',"JPEG")
     img2.save('inputs/cloth/img2.jpg',"JPEG")
 
@@ -49,26 +56,34 @@ def hello_test():
     cloth_path = os.path.join(sorted(os.listdir('inputs/cloth'))[0])
     img_path = os.path.join(sorted(os.listdir('inputs/img'))[0])
 
+    # 의상 피팅 실행 후 저장
     V_Fit.vfit(cloth_path, img_path)
-    
+
+    # 결과 이미지 전달
     filename = "./results/img.jpg"
     with open(filename, 'rb') as f:
         load_file = f.read()
     result = base64.b64encode(load_file).decode('utf8')
+    
     return jsonify({'data':result})
 
-# 헤어 합성 모델 실행 function
-@app.route("/use_hair_fit_model", methods=['GET','POST'])
-def use_hair_fit_model():
+# 헤어 피팅 모델 function
+@app.route("/hair_fit", methods=['GET','POST'])
+def hair_fit():
+    # 데이터 수신
     data = request.get_json()
+    # 사용자 이미지
     imgdata1 = base64.b64decode(data['image1'])
     img1 = Image.open(io.BytesIO(imgdata1))
     img1.save('img1.jpg',"JPEG")
     img1 = open("img1.jpg", "rb")
-    
+
+    # 헤어 정보 텍스트 데이터
     neutral = str(data['neutral'])
     target = str(data['target'])
     manipulation_strength = str(data['mani'])
+
+    # 헤어 피팅 실행
     output = replicate.run(
     "자신의 API Token 받기",
 
@@ -79,11 +94,11 @@ def use_hair_fit_model():
             "disentanglement_threshold" : 0.15     # Lower values mean that broader changes are made to the input image
            }
     )
-    print("!!!")
 
-    # 이미지 요청 및 다운로드
+    # 결과 이미지 요청 및 다운로드
     urllib.request.urlretrieve(output, "output.jpg")
     
+    # 결과 이미지 전달
     with open("output.jpg", 'rb') as f:
         load_file = f.read()
     result = base64.b64encode(load_file).decode('utf8')
