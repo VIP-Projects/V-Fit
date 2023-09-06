@@ -15,7 +15,7 @@
 ## 시스템 구성
 
 <p align="center">
-<img src="https://github.com/VIP-Projects/V-Fit-App/assets/53934639/7bccd6fc-4c68-42cf-97b4-bf53d83e476f" style="width:600px"></p>
+<img src="https://github.com/VIP-Projects/V-Fit/assets/53934639/5e057b01-26e8-4d07-b813-73bdabde317d" style="width:600px"></p>
 
 
 <br><br>
@@ -34,7 +34,11 @@
 -	<b> Human Segmentation Mask Model :</b> ACGPN Model
 
 <p align="center">
-<img src="https://github.com/VIP-Projects/V-Fit/assets/53934639/19d626b2-0522-4545-866f-4440249f279b" style="width:500px"></p>
+<img src="https://github.com/VIP-Projects/V-Fit/assets/53934639/7c5fbec5-c086-4cfb-9ae9-c4c5b6212d02" style="width:500px"></p>
+
+
+
+
 
 <br>
 
