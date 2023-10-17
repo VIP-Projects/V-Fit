@@ -121,18 +121,22 @@ virtual fitting dir
 
 #### 1. 의상 가상 피팅 방법
 
+- 옷 마스크 추출 → 모델 Pose, Segmentation → 추론
 - [Virtual Cloth Fit.md](https://github.com/VIP-Projects/V-Fit/blob/main/Virtual%20Cloth%20Fit.md)
 
 #### 2. 헤어 가상 피팅 방법
 
+- 이미지와 헤어 정보 텍스트를 입력 → 멀티모달 수행 → 헤어 합성 이미지 생성
 - [Virtual Hair Fit.md](https://github.com/VIP-Projects/V-Fit/blob/main/Virtual%20Hair%20Fit.md)
 
 #### 3. 어플리케이션 구현
 
+- 사용자가 애플리케이션을 통해 가상 피팅 기능을 사용, 원하는 의상 및 헤어를 피팅하여 결과를 확인
 - [Application.md](https://github.com/VIP-Projects/V-Fit/blob/main/Application.md)
 
 #### 4. 딥러닝 서버 구현
 
+- 애플리케이션과 통신하여 데이터 송•수신, 의상 피팅 및 헤어 피팅 수행
 - [Server.md](https://github.com/VIP-Projects/V-Fit/blob/main/Server.md)
 
 
