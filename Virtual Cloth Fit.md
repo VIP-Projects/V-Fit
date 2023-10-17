@@ -50,7 +50,7 @@
 ### 2. 실행
   
   ```
-  # main.py 실행
+  # ./Virtual_Fitting/V_Fit.py 실행
 
   # input 
   cloth_path = 'inputs/cloth/000038_1.jpg'    # 옷 이미지 경로
