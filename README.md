@@ -153,7 +153,10 @@ virtual fitting dir
 ## 실행 방법
 
 ```
-.py 실행
+# 1. 서버 실행
+python ./Firtual_Fitting/flask_server.py
+
+# 2. Android App 구동
 ```
 
 <br><br>
