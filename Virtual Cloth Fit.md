@@ -51,11 +51,4 @@
   
   ```
   # ./Virtual_Fitting/V_Fit.py 실행
-
-  # input 
-  cloth_path = 'inputs/cloth/000038_1.jpg'    # 옷 이미지 경로
-  img_path = 'inputs/img/000174_0.jpg'        # 사용자 이미지 경로
-
-  # output
-  V_Fit.vfit(cloth_path, img_path)         # virtual fitting 결과 이미지 경로
    ```
