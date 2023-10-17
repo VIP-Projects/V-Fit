@@ -191,9 +191,9 @@ AI 라이브러리 : Pytorch 1.7.1
 
 ## License
 
-- <b>Virtual Cloth Fitting </b>: [Towards Photo-Realistic Virtual Try-On by Adaptively Generating↔Preserving Image Content](https://github.com/switchablenorms/DeepFashion_Try_On)
-- <b>Virtual Hair Fitting</b>:  [StyleCLIP: Text-Driven Manipulation of StyleGAN Imagery](https://github.com/orpatashnik/StyleCLIP)
-- <b>Web Crawling </b>: 1차 23.0.0., 2차 23.0.0 로 무신사에 데이터 사용에 대한 문의를 보냈고, 아직 답을 기다리는 중.
+- <b>Virtual Cloth Fitting </b> - [Towards Photo-Realistic Virtual Try-On by Adaptively Generating↔Preserving Image Content](https://github.com/switchablenorms/DeepFashion_Try_On)
+- <b>Virtual Hair Fitting</b> - [StyleCLIP: Text-Driven Manipulation of StyleGAN Imagery](https://github.com/orpatashnik/StyleCLIP)
+- <b>Web Crawling </b> - 1차 23.0.0., 2차 23.0.0 로 무신사에 데이터 사용에 대한 문의를 보냈고, 아직 답을 기다리는 중.
 
 
 
