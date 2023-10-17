@@ -56,7 +56,7 @@ File Type | files
 |      |            |--SubActivity3_1_2.java
 |      |            |--SubActivity4.java
 |      |            |--SubActivity4_1.java
-|      |            |--SubActivity4_2.java
+|      |            '--SubActivity4_2.java
 |      |--res
 |      |            |--drawble
 |      |            |      |--white.png
@@ -78,9 +78,9 @@ File Type | files
 |      |            |      |--activity_sub4.xml
 |      |            |      |--activity_sub41.xml
 |      |            |      |--activity_sub42.xml
-|      |            |      |--dialog_progress.xml
-|      |--AndroidManifest.xml
-|--build.gradle.kts
+|      |            |      '--dialog_progress.xml
+|      '--AndroidManifest.xml
+'--build.gradle.kts
 
   ```
 
