@@ -1,11 +1,12 @@
 ## 의상 가상 피팅 방법
 
-#### 데이터셋
+### 데이터셋
 - VITON dataset
 
-#### 구현 기능
+### 구현 기능
 - 옷 마스크 추출 → 모델 Pose, Segmentation → 추론
-#### 구현 내용
+
+### 구현 내용
 -	<b> Virtual Fitting model :</b> Pose Estimation(Open Pose - pose_iter_440000.caffemodel)
 -	<b> Fashion Mask Extraction Model :</b> U2Net Model
 -	<b> Human Segmentation Mask Model :</b> ACGPN Model
