@@ -80,7 +80,7 @@ File Type | files
 |      |            |      |--activity_sub42.xml
 |      |            |      |--dialog_progress.xml
 |      |--AndroidManifest.xml
-
+|--build.gradle.kts
 
   ```
 
