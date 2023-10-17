@@ -20,7 +20,7 @@
   헤어 컬러 | blond, red, blue, white, black, grey
 -->
 
-#### 헤어 스타일
+#### 1. 헤어 스타일
 - fringle hair(앞머리)
 - short hair(짧은 머리)
 - lonb hair(긴 머리)
@@ -31,11 +31,19 @@
 - mohawk hairstyle(정수리를 중심으로 정가운데만 곧게 뻗치게 하고 양옆은 삭발)
 - bald(대머리)
 
-
-#### 헤어 컬러
+#### 2. 헤어 컬러
 - blond
 - red
 - blue
 - white
 - black
 - grey
+
+<br>
+
+### 실행
+  
+  ```
+./Virtual_Fitting/Hair_Fit.py 실행
+   ```
+
