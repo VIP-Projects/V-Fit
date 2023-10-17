@@ -1,13 +1,26 @@
-# V Fit : 멀티모달 생성형 AI 기반 가상 피팅 앱서비스 
-### 가상 피팅 모델 기술 관련 Repository
+## V Fit : 멀티모달 생성형 AI 기반 가상 피팅 앱서비스 
 
-<br>
 
 #### 2023년 공개SW 개발자대회 - [V FiT] 김준용, 길다영, 황현빈
 
+<br>
+
+### Members
+김준용 | 길다영 | 황현빈
+--|--|--
+<a href="https://github.com/wragon"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white"></a>|<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white">|<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white">
 
 
-본 프로젝트에서는 사용자가 비용을 지불하기 전에 스타일을 확인하여 소요 시간과 비용을 절약하고 만족도를 높일 수 있는 의상 및 헤어 가상 피팅 서비스를 제공한다.
+
+팀원|역할
+--|--
+김준용|팀장, 의상 피팅 모델 구현 및 적용, 애플리케이션 UI제작
+길다영|팀원, 헤어 피팅 모델 구현 및 적용, 애플리케이션 UI제작
+황현빈|팀원, 크롤링 수행, 서버 구현, 애플리케이션 통신
+
+
+### 프로젝트 소개
+- 본 프로젝트에서는 사용자가 비용을 지불하기 전에 스타일을 확인하여 소요 시간과 비용을 절약하고 만족도를 높일 수 있는 의상 및 헤어 가상 피팅 서비스를 제공한다.
 
 <br><br>
 
