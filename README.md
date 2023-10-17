@@ -25,7 +25,7 @@
 - [시스템 구성](#시스템-구성)
   - [Directory 구조](#Directory-구조)
   - [구현 방법](#구현-방법)
-    - [의상 가상 피팅 방법](#의상-가상-피팅-방법)
+    - [의상 가상 피팅 방법](#1.-의상-가상-피팅-방법)
     - [헤어 가상 피팅 방법](#헤어-가상-피팅-방법)
     - [어플리케이션 구현](#어플리케이션-구현)
     - [AI 서버 구현](#AI-서버-구현)
@@ -113,19 +113,19 @@ virtual fitting dir
 
 ### 구현 방법
 
-#### 의상 가상 피팅 방법
+#### 1. 의상 가상 피팅 방법
 
 - [Virtual Cloth Fit.md](https://github.com/VIP-Projects/V-Fit/blob/main/Virtual%20Cloth%20Fit.md)
 
-#### 헤어 가상 피팅 방법
+#### 2. 헤어 가상 피팅 방법
 
 - [Virtual Hair Fit.md](https://github.com/VIP-Projects/V-Fit/blob/main/Virtual%20Hair%20Fit.md)
 
-#### 어플리케이션 구현
+#### 3. 어플리케이션 구현
 
 - [Application.md](https://github.com/VIP-Projects/V-Fit/blob/main/Application.md)
 
-#### AI 서버 구현
+#### 4. AI 서버 구현
 
 - [Server.md](https://github.com/VIP-Projects/V-Fit/blob/main/Server.md)
 
