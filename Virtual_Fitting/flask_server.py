@@ -98,7 +98,7 @@ def hair_fit():
     # 결과 이미지 요청 및 다운로드
     urllib.request.urlretrieve(output, "output.jpg")
     
-    # 결과 이미지 전달
+    # 결과 이미지 전달 
     with open("output.jpg", 'rb') as f:
         load_file = f.read()
     result = base64.b64encode(load_file).decode('utf8')
