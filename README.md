@@ -24,6 +24,7 @@
   - [헤어 가상 피팅 방법](#헤어-가상-피팅-방법)
   - [AI 서버 구현](#AI-서버-구현)
 - [개발 환경 및 개발 언어](개발-환경-및-개발-언어)
+- [실행 방법](실행-방법)
 
 
 <br><br>
@@ -49,8 +50,13 @@
 
 ## 시스템 구성
 
-<p align="center">
-<img src="https://github.com/VIP-Projects/V-Fit/assets/53934639/5e057b01-26e8-4d07-b813-73bdabde317d" style="width:600px"></p>
+<p align="center" width=100%>
+<img src="https://github.com/VIP-Projects/V-Fit/assets/53934639/5e057b01-26e8-4d07-b813-73bdabde317d" style="width:50%">
+<img src="https://github.com/VIP-Projects/V-Fit-App/assets/53934639/e75deef4-4193-44c0-bb22-4688aa068520" style="width:50%">
+</p>
+
+
+
 
 <br>
 
@@ -77,6 +83,9 @@ virtual fitting dir
 
 - [Virtual Hair Fit.md](https://github.com/VIP-Projects/V-Fit/blob/main/Virtual%20Hair%20Fit.md)
 
+### 어플리케이션 구현
+
+- [Application.md](https://github.com/VIP-Projects/V-Fit/blob/main/Application.md)
 
 ### AI 서버 구현
 
@@ -112,6 +121,12 @@ AI 라이브러리 : Pytorch 1.7.1
 ```
 
 <br><br>
+
+## 실행 방법
+
+```
+.py 실행
+```
 
 
 
