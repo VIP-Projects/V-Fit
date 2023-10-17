@@ -2,10 +2,16 @@
 
 ### 구현 기능
 - 이미지와 헤어 정보 텍스트를 입력 → 멀티모달 수행 → 헤어 합성 이미지 생성
+
+<br>
+
 ### 구현 내용
 - cloud API를 통해 StyleCLIP 모델을 사용
 - 헤어스타일 관련 텍스트 정보를 입력으로 받아 사용자 이미지를 변경하는 멀티 모달 수행 
 - manipulation_strength 옵션을 사용하여 스타일 세기 조정
+
+<br>
+
 ### 종류
 
   Types of hair fitting | hairs
