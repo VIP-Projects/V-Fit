@@ -13,8 +13,29 @@
 <br>
 
 ### 종류
-
+<!--
   Types of hair fitting | hairs
   -- | --
   헤어스타일 | fringle hair(앞머리), short hair(짧은 머리), lonb hair(긴 머리), straignt hair(생머리),   <br> culry hairstyle(곱슬머리), afri hairstyle(크고 둥글게 만든 곱슬머리), hi-top fade hair(정수리의 머리카락을 길게 기르고 옆머리를 매우 짧게 이발),   <br> mohawk hairstyle(정수리를 중심으로 정가운데만 곧게 뻗치게 하고 양옆은 삭발), bald(대머리)
   헤어 컬러 | blond, red, blue, white, black, grey
+-->
+
+#### 헤어 스타일
+- fringle hair(앞머리)
+- short hair(짧은 머리)
+- lonb hair(긴 머리)
+- straignt hair(생머리)
+- culry hairstyle(곱슬머리)
+- afri hairstyle(크고 둥글게 만든 곱슬머리)
+- hi-top fade hair(정수리의 머리카락을 길게 기르고 옆머리를 매우 짧게 이발)
+- mohawk hairstyle(정수리를 중심으로 정가운데만 곧게 뻗치게 하고 양옆은 삭발)
+- bald(대머리)
+
+
+#### 헤어 컬러
+- blond
+- red
+- blue
+- white
+- black
+- grey
