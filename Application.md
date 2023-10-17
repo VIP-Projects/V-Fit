@@ -44,7 +44,44 @@ File Type | files
 <div markdown="1">
 
   ```
-application dir
+.
+|--src/main
+|      |--java/com/example/vfitapplication
+|      |            |--MainActivity.java
+|      |            |--ProgressDialog.java
+|      |            |--SubActivity2.java
+|      |            |--SubActivity3.java
+|      |            |--SubActivity3_1.java
+|      |            |--SubActivity3_1_1.java
+|      |            |--SubActivity3_1_2.java
+|      |            |--SubActivity4.java
+|      |            |--SubActivity4_1.java
+|      |            |--SubActivity4_2.java
+|      |--res
+|      |            |--drawble
+|      |            |      |--white.png
+|      |            |      |--iu.jpg
+|      |            |      |--iu_hair.jpg
+|      |            |      |--iu_result.png
+|      |            |      |--btn_white_blackstroke.xml
+|      |            |      |--ic_launcher_background.xml
+|      |            |      |--ic_launcher_foreground.xml
+|      |            |      |--progress_bg.xml
+|      |            |      |--progress_image.xml
+|      |            |--layout
+|      |            |      |--activity_main.xml
+|      |            |      |--activity_sub2.xml
+|      |            |      |--activity_sub3.xml
+|      |            |      |--activity_sub31.xml
+|      |            |      |--activity_sub311.xml
+|      |            |      |--activity_sub312.xml
+|      |            |      |--activity_sub4.xml
+|      |            |      |--activity_sub41.xml
+|      |            |      |--activity_sub42.xml
+|      |            |      |--dialog_progress.xml
+|      |--AndroidManifest.xml
+
+
   ```
 
 </div>
