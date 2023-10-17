@@ -155,10 +155,16 @@ virtual fitting dir
 ## 실행 방법
 
 ```
-# 1. 서버 실행
+# 1. 환경 설정
+Package 및 Android Studio 설치
+
+# 2. 가상 의상 피팅 모델 Download
+Virtual Cloth Fit.md 참고해 가상 의상 피팅 pretrained model Download
+
+# 3. 서버 실행
 python ./Firtual_Fitting/flask_server.py
 
-# 2. Android App 구동
+# 4. Android App 구동
 ```
 
 <br><br>
