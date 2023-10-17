@@ -1,5 +1,5 @@
 import gdown
-import numpy as np  # numpy <= 1.23
+import numpy as np  # numpy <= 1.21
 from PIL import Image
 import IPython
 import gdown
