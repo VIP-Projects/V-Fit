@@ -26,23 +26,23 @@
 
 <b> Pose Prediction Model </b>
 
-- './pose' 에 저장
+- './Virtual_Fitting/pose' 에 저장
 - [DOWNLOAD](https://github.com/foss-for-synopsys-dwc-arc-processors/synopsys-caffe-models/blob/master/caffe_models/openpose/caffe_model/pose_iter_440000.caffemodel)
 
 <b> Human Segmentation Mask 모델  </b>
 
-- './ACGPN' 에 'lip_final.pth'로 파일명 변경하여 저장
+- './Virtual_Fitting' 에 'lip_final.pth'로 파일명 변경하여 저장
 - [DOWNLOAD](https://drive.google.com/uc?id=1k4dllHpu)
 
 <b> Cloth Mask 모델  </b>
-- './U2Net/saved_models/u2netp/'에 'u2netp.pth'으로 파일명 변경하여 저장
+- './Virtual_Fitting/U2Net/saved_models/u2netp/'에 'u2netp.pth'으로 파일명 변경하여 저장
 - [DOWNLOAD](https://drive.google.com/uc?id=1rbSTGKAE-MTxBYHd-51l2hMOQPT_7EPy)
 
 - './U2Net/saved_models/u2net/'에 'u2net.pth'으로 파일명 변경하여 저장
 - [DOWNLOAD](https://drive.google.com/uc?id=1ao1ovG1Qtx4b7EoskHXmi2E9rp5CHLcZ)
 
 <b> ACGPN 모델  </b>
-- './checkpoints/'에 저장 후 unzip
+- './Virtual_Fitting/checkpoints/'에 저장 후 unzip
 - [DOWNLOAD](https://drive.google.com/uc?id=1UWT6esQIU_d4tUm8cjxDKMhB8joQbrFx)
 
 <br>
