@@ -50,5 +50,5 @@
 ### 2. 실행
   
   ```
-  # ./Virtual_Fitting/V_Fit.py 실행
+ ./Virtual_Fitting/V_Fit.py 실행
    ```
