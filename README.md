@@ -165,7 +165,7 @@ virtual fitting dir
 
 <br><br>
 
-## ⚙ 실행 방법
+## 실행 방법
 
 ```
 # 1. 환경 설정
@@ -182,7 +182,7 @@ python ./Firtual_Fitting/flask_server.py
 
 <br><br>
 
-## 🛠 개발 환경 및 개발 언어
+## 개발 환경 및 개발 언어
 
 ```
 운영체제 : Linux 22.04
@@ -194,7 +194,7 @@ AI 라이브러리 : Pytorch 1.7.1
 
 <br><br>
 
-## 🔎 License
+## License
 
 - <b>Virtual Cloth Fitting </b> - [Towards Photo-Realistic Virtual Try-On by Adaptively Generating↔Preserving Image Content](https://github.com/switchablenorms/DeepFashion_Try_On)
 - <b>Virtual Hair Fitting</b> - [StyleCLIP: Text-Driven Manipulation of StyleGAN Imagery](https://github.com/orpatashnik/StyleCLIP)
