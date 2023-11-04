@@ -138,7 +138,7 @@ virtual fitting dir
 |      |            |      |--__init__.py
 |      |            |      |--datasets.py
 |      |            |      |--simple_extractor_dataset.py
-|      |            |      |--target_generation.py
+|      |            |      '--target_generation.py
 |      |            |--modules
 |      |            |      |--__init__.py
 |      |            |      |--bn.py
@@ -146,31 +146,31 @@ virtual fitting dir
 |      |            |      |--dense.py
 |      |            |      |--functions.py
 |      |            |      |--misc.py
-|      |            |      |--residual.py
+|      |            |      '--residual.py
 |      |            |--networks
 |      |            |      |--backbone
 |      |            |      |      |--mobilenetv2.py
 |      |            |      |      |--resnet.py
-|      |            |      |      |--resnext.py
+|      |            |      |      '--resnext.py
 |      |            |      |--context_encoding
 |      |            |      |      |--aspp.py
 |      |            |      |      |--ocnet.py
-|      |            |      |      |--psp.py
+|      |            |      |      '--psp.py
 |      |            |      |--__init__.py
-|      |            |      |--AugmentCE2P.py
+|      |            |      '--AugmentCE2P.py
 |      |            |--utils
 |      |            |      |--__init__.py
-|      |            |      |--transforms.py
+|      |            |      '--transforms.py
 |      |            '--simple_extractor.py
 |      |--U2Net
 |      |            |--model
 |      |            |      |--__init__.py
 |      |            |      |--u2net.py
-|      |            |      |--u2net_refactor.py
+|      |            |      '--u2net_refactor.py
 |      |            |--save_models
 |      |            |      |--face_detection_cv2
 |      |            |      |--u2net
-|      |            |      |--u2netp
+|      |            |      '--u2netp
 |      |            |--data_loader.py
 |      |            |--u2net_load.py
 |      |            |--u2net_run.py
