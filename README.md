@@ -198,7 +198,7 @@ virtual fitting dir
 |      |--predict_pose.py
 |      |--test.py
 |      '--tps_grid_gen.py
-
+'
   ```
 
 </div>
