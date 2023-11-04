@@ -120,43 +120,84 @@ AI 라이브러리 : Pytorch 1.7.1
 
   ```
 virtual fitting dir
+
 .
-|--src/main
-|      |--java/com/example/vfitapplication
-|      |            |--MainActivity.java
-|      |            |--ProgressDialog.java
-|      |            |--SubActivity2.java
-|      |            |--SubActivity3.java
-|      |            |--SubActivity3_1.java
-|      |            |--SubActivity3_1_1.java
-|      |            |--SubActivity3_1_2.java
-|      |            |--SubActivity4.java
-|      |            |--SubActivity4_1.java
-|      |            '--SubActivity4_2.java
-|      |--res
-|      |            |--drawble
-|      |            |      |--white.png
-|      |            |      |--iu.jpg
-|      |            |      |--iu_hair.jpg
-|      |            |      |--iu_result.png
-|      |            |      |--btn_white_blackstroke.xml
-|      |            |      |--ic_launcher_background.xml
-|      |            |      |--ic_launcher_foreground.xml
-|      |            |      |--progress_bg.xml
-|      |            |      |--progress_image.xml
-|      |            |--layout
-|      |            |      |--activity_main.xml
-|      |            |      |--activity_sub2.xml
-|      |            |      |--activity_sub3.xml
-|      |            |      |--activity_sub31.xml
-|      |            |      |--activity_sub311.xml
-|      |            |      |--activity_sub312.xml
-|      |            |      |--activity_sub4.xml
-|      |            |      |--activity_sub41.xml
-|      |            |      |--activity_sub42.xml
-|      |            |      '--dialog_progress.xml
-|      '--AndroidManifest.xml
-'--build.gradle.kts
+|--Virtual_Fitting
+|      |--checkpoints
+|      |            '--label2city
+|      |--Data_preprocessing
+|      |            |--test_color
+|      |            |--test_colormask
+|      |            |--test_edge
+|      |            |--test_img
+|      |            |--test_label
+|      |            |--test_mask
+|      |            '--test_pose
+|      |--Self_ACGPN
+|      |            |--datasets
+|      |            |      |--__init__.py
+|      |            |      |--datasets.py
+|      |            |      |--simple_extractor_dataset.py
+|      |            |      |--target_generation.py
+|      |            |--modules
+|      |            |      |--__init__.py
+|      |            |      |--bn.py
+|      |            |      |--deeplab.py
+|      |            |      |--dense.py
+|      |            |      |--functions.py
+|      |            |      |--misc.py
+|      |            |      |--residual.py
+|      |            |--networks
+|      |            |      |--backbone
+|      |            |      |      |--mobilenetv2.py
+|      |            |      |      |--resnet.py
+|      |            |      |      |--resnext.py
+|      |            |      |--context_encoding
+|      |            |      |      |--aspp.py
+|      |            |      |      |--ocnet.py
+|      |            |      |      |--psp.py
+|      |            |      |--__init__.py
+|      |            |      |--AugmentCE2P.py
+|      |            |--utils
+|      |            |      |--__init__.py
+|      |            |      |--transforms.py
+|      |            '--simple_extractor.py
+|      |--U2Net
+|      |            |--model
+|      |            |      |--__init__.py
+|      |            |      |--u2net.py
+|      |            |      |--u2net_refactor.py
+|      |            |--save_models
+|      |            |      |--face_detection_cv2
+|      |            |      |--u2net
+|      |            |      |--u2netp
+|      |            |--data_loader.py
+|      |            |--u2net_load.py
+|      |            |--u2net_run.py
+|      |            '--u2net_test.py
+|      |--data
+|      |            |--aligned_dataset.py
+|      |            |--base_data_loader.py
+|      |            |--base_dataset.py
+|      |            |--custom_dataset_data_loader.py
+|      |            |--data_loader.py
+|      |            '--image_folder.py
+|      |--options
+|      |            |--base_options.py
+|      |            '--test_options.py
+|      |--pose
+|      |            |--pose_deploy_linevec.prototxt
+|      |            '--pose_iter_440000.caffemodel
+|      |--util
+|      |            |--image_pool.py
+|      |            '--util.py
+|      |--Hair_Fit.py
+|      |--V_Fit.py
+|      |--flask_server.py
+|      |--grid_sample.py
+|      |--predict_pose.py
+|      |--test.py
+|      '--tps_grid_gen.py
 
   ```
 
