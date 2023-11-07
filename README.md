@@ -57,9 +57,13 @@
 <div align="center">
 <a href="https://www.youtube.com/watch?v=u5lOjsgrRXE"><img src="https://img.shields.io/badge/V Fit Demo Video-YouTube-FF0000?style=for-the-badge&logo=YouTube&logoColor=white"></a>
 
-의상 피팅 | 추천 의상 피팅 | 헤어 피팅
---|--|--
-<img src="https://github.com/VIP-Projects/V-Fit-App/assets/53934639/ddd90ea7-5d5a-4ca2-a68d-9fbbe044df28" style="width:200px"> | <img src="https://github.com/VIP-Projects/V-Fit-App/assets/53934639/e1e87022-70ae-44ac-b135-1df309f41b91" style="width:200px">|<img src="https://github.com/VIP-Projects/V-Fit-App/assets/53934639/7317a44d-ff18-4080-be13-efbd5a40941c" style="width:200px">
+의상 피팅(직접 업로드) | 의상 피팅(추천 옷) | 헤어 피팅(스타일) | 헤어 피팅(컬러)
+--|--|--|--
+<img src="https://github.com/VIP-Projects/V-Fit/assets/53934639/1acd07f5-88c7-487a-95e2-40f189472148" style="width:200px"> | <img src="https://github.com/VIP-Projects/V-Fit/assets/53934639/f1525463-b1a6-4114-8c36-1ad086951fff" style="width:200px">|<img src="https://github.com/VIP-Projects/V-Fit/assets/53934639/f49beca7-e09a-4684-850e-3bfc4d8ef4f0" style="width:200px">|<img src="https://github.com/VIP-Projects/V-Fit/assets/53934639/cd4dcedc-9faf-4d5a-a648-f52da902a3fa" style="width:200px">
+
+
+
+
 
 </div>
 
